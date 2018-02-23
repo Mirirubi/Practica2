@@ -12,7 +12,20 @@ body {
   font-size:21px;
   border-bottom: 1px solid grey;
 }
+.menu{
+  
+  border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border: 1px solid rgba(128, 128, 128, 0.753);
+}
+.bloque{
 
+-webkit-box-shadow: 6px 6px 12px 0px rgba(153,153,153,0.22);
+-moz-box-shadow: 6px 6px 12px 0px rgba(153,153,153,0.22);
+box-shadow: 6px 6px 12px 0px rgba(153,153,153,0.22);
+
+}
 
 .categorias{
   font-weight: bold;
@@ -28,7 +41,7 @@ body {
   font-size: 12px;
   text-align: justify;
   text-indent: 10%;
-  margin: 10px 0px;
+  margin: 10px;
  }
  .menu_precio{
   margin: 10px 0px;
@@ -36,6 +49,16 @@ body {
  }
  input[type=number] {
   width: 50px;
+}
+
+.resumen_producto{
+  border-top: 1px solid grey;
+
+}
+.total{
+  margin: 10px 0px 50px 0px;
+  border-top: 1px solid grey;
+  
 }
 /*
 hr {
